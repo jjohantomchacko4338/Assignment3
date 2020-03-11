@@ -1,0 +1,26 @@
+String sCurrent = "X"
+
+for(int nRow=0; nrow<3; nrow++)
+{
+	for(int ncol=0; ncol<3;ncol++)
+{
+	Button[nRow][nCol].setOnClickListener(this);}
+}
+
+view v
+{
+Button btnCurrent = (Button)v;
+
+if(btnCurrent.getText().toString()==""){
+btnCurrent.setText(this.sCurrent);
+	if(this.sCurrent="X")
+	{
+		this.sCurrent="O"
+	}
+	else{
+	this.sCurrent = "X"; }
+}
+
+
+	
+Toast.makeText(this, "button Clicked",Toast.LENGTH_LONG).show();
